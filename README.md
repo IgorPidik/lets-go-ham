@@ -43,6 +43,8 @@ $ pipenv run jupyter notebook
 Overall, it is not very surprising that SVC wins here (with very good performance at that), however, MultinomialNB is suprising close up there with its performance. Furthemore, it's considerabely faster to train and do predictions with. It may be worth while doing more experiments with MultinomialNB and improve the pipeline.
 Finally, from error analysis it seems like all of the models fail on very similar samples, mostly consisting of more elaborate promotions for product/services spam emails.
 
+Why so many experiments with and without stop words? -> [Take a look](https://aclanthology.org/W18-2502/)
+
 ## Improvements to be done
 * More preprocessing: e.g. regex for special characters, replace phone numbers with special tag, replace long numbers with a tag, replace prices with a special tag, etc..
 * Try out more pipeline permuations
