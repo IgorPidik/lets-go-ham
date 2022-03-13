@@ -41,6 +41,7 @@ $ pipenv run jupyter notebook
 ## Improvements to be done
 * More preprocessing: e.g. regex for special characters, replace phone numbers with special tag, replace long numbers with a tag, replace prices with a special tag, etc..
 * Try out more pipeline permuations
+* More/better custom features
 * Gridsearch on a wider parameter space
 * Try out RandomForest
 * Refactor (oh boy 😬)
