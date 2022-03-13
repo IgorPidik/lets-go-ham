@@ -39,4 +39,9 @@ $ pipenv run jupyter notebook
 | SVC(CountVectorizer)            | `lemmas_without_puct_and_stop_words` `pos_without_puct_and_stop_words` `number_of_punct_tokens` `text_length` | 0.970                | 0.7124    | 0.084    |
 
 ## Improvements to be done
-
+* More preprocessing: e.g. regex for special characters, replace phone numbers with special tag, replace long numbers with a tag, replace prices with a special tag, etc..
+* Try out more pipeline permuations
+* Gridsearch on a wider parameter space
+* Try out RandomForest
+* Refactor (oh boy 😬)
+* Convert to scripts and save results to files for later evaluation
