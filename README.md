@@ -47,6 +47,7 @@ Why so many experiments with and without stop words? -> [Take a look](https://ac
 
 ## Improvements to be done
 * More preprocessing: e.g. regex for special characters, replace phone numbers with special tag, replace long numbers with a tag, replace prices with a special tag, etc..
+* In the data analysis it may be worthwhile to look at combinations of features and also n-grams
 * Try out more pipeline permuations
 * More/better custom features
 * Gridsearch on a wider parameter space
